@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "Task2"
+version = "0.1.0"
+description = "Example project that shows how to use mygenerators library"
+authors = [
+    { name = "wyxxnt" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+
+dependencies = [
+    "mygenerators @ file:///${PROJECT_ROOT}/../"
+]
