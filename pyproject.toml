@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "mygenerators"
+version = "0.1.0"
+description = "A small library with generators and iterators from task 1"
+authors = [
+    { name = "wyxxnt" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.8"
